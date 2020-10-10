@@ -1,0 +1,23 @@
+[
+  {
+    "clientId": 1,
+    "name": "Alfonso",
+    "lastName": "Benites",
+    "address": "Av. Abc",
+    "dni": "123456789"
+  },
+  {
+    "clientId": 2,
+    "name": "Carlos",
+    "lastName": "Donaire",
+    "address": "Av. Hijk",
+    "dni": "123456788"
+  },
+  {
+    "clientId": 3,
+    "name": "Elmer",
+    "lastName": "Frances",
+    "address": "Av. Defg",
+    "dni": "123456787"
+  }
+]

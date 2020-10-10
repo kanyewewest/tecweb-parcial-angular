@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'pm-root',
@@ -24,6 +24,15 @@ import { Component } from '@angular/core'
             Product List
           </a>
         </li>
+        <li>
+          <a
+            class="nav-link"
+            routerLinkActive="active"
+            [routerLink]="['/clients']"
+          >
+            Client List
+          </a>
+        </li>
       </ul>
     </nav>
     <div class="container">
@@ -33,5 +42,5 @@ import { Component } from '@angular/core'
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  pageTitle = 'Product Management'
+  pageTitle = 'Product Management';
 }
